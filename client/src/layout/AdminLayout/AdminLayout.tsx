@@ -8,7 +8,7 @@ export default function AdminLayout() {
       <NavigationBar />
 
       <main className="w-full flex">
-        <aside className="menu bg-base-200 w-56 rounded-sm gap-4 py-4 [&_a]:font-semibold [&_a]:text-sm">
+        <aside className="menu bg-base-200 w-56 rounded-sm gap-2 pt-4 pb-6 [&_a]:font-semibold [&_a]:text-sm ml-6">
           <li>
             <a>Account details</a>
           </li>
