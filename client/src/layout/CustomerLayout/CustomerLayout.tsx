@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import React from "react";
-import NavigationBar from "../../components/Admin/NavigationBar";
+import NavigationBar from "../../components/Admin/NavigationBar/NavigationBar";
 
 export default function CustomerLayout() {
   return (

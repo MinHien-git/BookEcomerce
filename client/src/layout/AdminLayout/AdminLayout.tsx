@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
 import React from "react";
-import NavigationBar from "../../components/Admin/NavigationBar";
+import NavigationBar from "../../components/Admin/NavigationBar/NavigationBar";
 
 export default function AdminLayout() {
   return (
-    <div className="flex flex-col overflow-hidden h-[100vh]">
+    <div className="flex flex-col overflow-hidden h-[100vh] w-full">
       <NavigationBar />
 
       <main className="w-full flex">
@@ -34,7 +34,7 @@ export default function AdminLayout() {
             <a>Log out</a>
           </li>
         </aside>
-        <section>
+        <section className="w-full">
           <Outlet />
         </section>
       </main>
