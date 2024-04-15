@@ -4,10 +4,10 @@ import NavigationBar from "../../components/Admin/NavigationBar/NavigationBar";
 
 export default function AdminLayout() {
   return (
-    <div className="flex flex-col overflow-hidden h-[100vh] w-full">
+    <div className="flex flex-col overflow-hidden h-fit w-full">
       <NavigationBar />
 
-      <main className="w-full flex">
+      <main className="w-full flex items-start">
         <aside className="menu bg-base-200 w-56 rounded-sm gap-2 pt-4 pb-6 [&_a]:font-semibold [&_a]:text-sm ml-6">
           <li>
             <a>Account details</a>
